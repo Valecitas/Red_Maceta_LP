@@ -110,6 +110,12 @@ p{
     background-repeat: repeat;
     height:123px;
 }
+.patron2{ 
+    background-image:url();
+    background-repeat: repeat;
+    height:123px;
+}
+
 .buscador{
     background-image:url("../img/tomato-03.png");
     background-size: 100%;
@@ -121,8 +127,6 @@ p{
     margin: 0 auto;
     text-align: center;
 }
-
-
 .opacidad{
     background-color: #c35f5d;
     opacity: 0.7;
@@ -149,7 +153,7 @@ hr {
     background-color: #ccc;
     overflow: hidden;
 }
-/* Clases tweet*/
+/* Clases */
 *{
     box-sizing: border-box;
 }
@@ -185,7 +189,7 @@ div, .patron h4 {
 .paisaje{
     
     height:150px;
-    margin-top: -40px;
+    margin-top: 10px;
     margin-left: 50%;              
 }
 .macetaroja{
@@ -226,117 +230,134 @@ div, .buscador2 h4 {
     display: inline-block;
 } 
 .fondorojo{
-                background-color: #c35f5d;
-                position: relative;
-                height: 600px;
-                text-align: center;
-                font-family: helvetica, arial, sans-serif;
-                font-size: 27px;
-            }
-            .backgroundtomato{
-                background-position: center 140px;
-                background-size: ;
-                position: absolute;
-                top: 0;
-                right: 0;
-                left: 0;
-                bottom: 0;
-                z-index: 1;
-                opacity: 0.3;
-                background-image:url("../img/tomato-03.png");
-                background-size: 100%;
-                background-repeat: no-repeat;
-                width: 100%;
-                height: 100%;
-            }
-            .onditas{
-                background-image: url('img/ondas.png');
-                background-position: center top;
-                background-size: ;
-                position: absolute;
-                top: 0;
-                right: 0;
-                left: 0;
-                bottom: 0;
-                z-index: 1;
-                opacity: 0.3;
-                background-image:url("../img/ondas.png");
-                background-repeat: repeat-x;
-                height:300px;
-            }
-            .super-hero-container{
-                z-index: 10;
-                position: relative;
-                color: #fff;
-                width: 80%;
-                margin: 0 auto;
-            }
-            .super-hero-frase{
-            padding: 10px;
-            font-size: 27px;color:white;
-            font-family:'OpenSans-Semibold';
-            margin-left:0px ;
-            margin-right:0px ;
-            }
-            .video{
-            margin-top: 20px;    
-            }
-            .super-hero-buscador{
-
-            }
+background-color: #c35f5d;
+position: relative;
+height: 600px;
+text-align: center;
+font-family: helvetica, arial, sans-serif;
+font-size: 27px;
+}
+.backgroundtomato{
+    background-position: center 140px;
+    background-size: ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.3;
+    background-image:url("../img/tomato-03.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.onditas{
+    background-image: url('img/ondas.png');
+    background-position: center top;
+    background-size: ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.3;
+    background-image:url("../img/ondas.png");
+    background-repeat: repeat-x;
+    height:300px;
+}
+.super-hero-container{
+    z-index: 10;
+    position: relative;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+.super-hero-frase{
+    padding: 10px;
+    font-size: 27px;color:white;
+    font-family:'OpenSans-Semibold';
+    margin-left:0px ;
+    margin-right:0px ;
+}
+.video{
+    margin-top: 20px;    
+}
 div, h1{
     padding: 0px;
-            font-size: 31px;color:white;
-            font-style: inherit;
-            font-family:'OpenSans-Semibold';
-            margin-left:0px ;
-            margin-right:0px ;
-
+    font-size: 31px;color:white;
+    font-style: inherit;
+    font-family:'OpenSans-Semibold';
+    margin-left:0px ;
+    margin-right:0px ;
 }            
 
 button{
-font-size: 15px;color:white  !important;
-font-style: inherit;
-font-family:'OpenSans-Regular';
-margin-left:0px ;
-margin-right:0px ;
-background-color: #c35f5d;
-height: 3rem;
-border-radius: 0px 7px 7px 0px;
--moz-border-radius: 0px 7px 7px 0px;
--webkit-border-radius: 0px 7px 7px 0px;
-border: 0px solid #000000;
+    font-size: 15px;color:white  !important;
+    font-style: inherit;
+    font-family:'OpenSans-Regular';
+    margin-left:0px ;
+    margin-right:0px ;
+    background-color: #c35f5d;
+    height: 2.6rem;
+    border-radius: 0px 7px 7px 0px;
+    -moz-border-radius: 0px 7px 7px 0px;
+    -webkit-border-radius: 0px 7px 7px 0px;
+    border: 0px solid #000000;
     border: 1px solid white;
 }
 form{
-background-color: white !important;
-border: #c35f5d;
-border-bottom: 1px solid #c35f5d;
-border-radius: ;
-outline: #c35f5d;
-height: 3rem;
-width: 45%;
-font-size: 15px;
-font-family:'OpenSans-Regular';
-margin: 0 0 0 0;
-padding: 0;
-box-shadow: none;
-box-sizing: content-box;
-transition: all .3s;
-border-radius: 7px 0px 0px 7px;
--moz-border-radius: 7px 0px 0px 7px;
--webkit-border-radius: 7px 0px 0px 7px;
-border: 0px solid #000000;
+    background-color: white !important;
+    border: #c35f5d;
+    border-bottom: 1px solid #c35f5d;
+    border-radius: ;
+    outline: #c35f5d;
+    height: 3rem;
+    width: 100%;
+    font-size: 15px;
+    font-family:'OpenSans-Regular';
+    margin: 0 0 0 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all .3s;
+    border-radius: 7px 0px 0px 7px;
+    -moz-border-radius: 7px 0px 0px 7px;
+    -webkit-border-radius: 7px 0px 0px 7px;
+    border: 0px solid #000000;
 }
 footer > div{
     position: absolute;
     display: inline-block;
-    font-size:7.0pt;
     font-family: 'Lato-Regular';
     color:#ffffff;
-    margin-left: 60px;
-    margin-top: 20px;
 }
+a:link {
+text-decoration: none;
+color: white;
+}
+.icon{ 
+    height:10%;
+    width: 10%;
+    display: inline-block;  
+} 
+.icon ul li{
+    display: inline-block;
+}
+.icon ul li img{
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+}
+.icon a{
+    text-decoration:none;color:white;
+    font-size: 15px;
+    font-family:'OpenSans-Semibold';
+    display: inline-block;
+} 
+
 
 
 
